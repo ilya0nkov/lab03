@@ -9,12 +9,8 @@ def bubble_sort(array):
         if not swapped:
             break
     return array
-'''
-# Пример использования
-array = [64, 34, 25, 12, 22, 11, 90]
-bubble_sort(array)
-print("Отсортированный массив:", array)
-'''
+
+
 if __name__ == "__main__":
     array = []
     n = int(input('Enter N\n'))
